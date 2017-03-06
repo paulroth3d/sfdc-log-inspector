@@ -1,7 +1,7 @@
-define("ace/snippets/elixir",["require","exports","module"], function(require, exports, module) {
+define(function(require, exports, module) {
 "use strict";
 
-exports.snippetText =undefined;
+exports.snippetText = require("../requirejs/text!./.snippets");
 exports.scope = "";
 
 });
